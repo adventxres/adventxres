@@ -1,0 +1,23 @@
+#READING NOTES 03 
+## START UP SEQUENCE AND BIOS 
+### START UP 
+- Compouter start up 
+- the cpu initializes, then fetches instructions from the BIOS, loads into RAM 
+- The BIIOS starts the monitor abd keyboarnd, system checks 
+- The BIOS then starts to boot the sequence 
+- it will look for operating system 
+- Control transerred to OS 
+#BIOS ** BASIC INPUT OUTPUT SYSTEM ** is a small piece of software that is stored on the motherboard of a comlouter and if respnsible for initializing the hardware and loading the OS 
+look for these in todays lab 
+- BOOT MODES 
+## UEFI 
+### LEGACY 
+- BOOT ORDER PRIORITY 
+CMOS battery may be going bad if the date on the computer is wrong 
+ ## CMOS 
+- CMOS is a complemenary metal oxide semiconductor holds BIOS configuration 
+- type of disk drive and installed 
+= system of date and time
+- boot sequence 
+reset CMOS memory by removing the CMOS batter to clear the CMOS and reinsert it 
+MOST DELLS you hit F12 to get to the BIOS 
