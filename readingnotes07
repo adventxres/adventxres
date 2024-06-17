@@ -1,0 +1,18 @@
+SSH Protocol
+What is the Secure Shell (SSH) Protocol?is a method for secure remote login from one computer to another.
+What are the typical uses of the SSH protocol?
+providing secure access for users and automated processes
+interactive and automated file transfers
+issuing remote commands
+managing network infrastructure and other mission-critical system components.
+
+How does the SSH protocol work?
+The protocol works in the client-server model, which means that the connection is established by the SSH client connecting to the SSH server. The SSH client drives the connection setup process and uses public key cryptography to verify the identity of the SSH server. After the setup phase the SSH protocol uses strong symmetric encryption and hashing algorithms to ensure the privacy and integrity of the data that is exchanged between the client and server.
+The figure below presents a simplified setup flow of a secure shell connection.
+
+How is the data kept safe when transmitted between the SSH client and server?the data that is transmitted is encrypted according to the parameters negotiated in the setup
+What is SFTP?  is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.
+What is RDP? And how to use it
+What is Windows Remote Desktop Connection? A remote proprietary protocol which provides a user witha graphic interface to connect to another computer with network  connection 
+What is RDP? Remote desktop protocol 
+What is the RDP port number? Port 3389
